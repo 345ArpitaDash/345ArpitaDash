@@ -1,0 +1,72 @@
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .logo{
+        height: 50px;
+        width: 100%;
+        border-style: double;
+        border-color: antiquewhite;
+        text-align: center;
+        padding-bottom: 30px;
+        
+
+    }
+    .fashion-logo{
+        height: 80px;
+        width: 90px;
+        vertical-align: top;
+        
+    }
+    .nav-bar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+
+    }
+    .left-section{
+    
+        margin-left: 70px;
+        
+    }
+    .middle-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(66, 62, 62);
+
+    width: 500px;
+    }
+    .div1{
+        border: none;
+        background-color: white;
+        height:30px ;
+        vertical-align: top;
+        cursor: pointer;
+        
+    }
+    .div1:hover{
+        color: orange;
+    }
+    .div1:active{
+        
+        transition: 1s rgb(197, 25, 25);
+    }
+    .right-section{
+
+    margin-right: 70px;
+
+
+    }
+    .battery-logo{
+        height: 30px;
+        
+    }
+    .hamburger-logo{
+        height: 30px;
+    }
+    
